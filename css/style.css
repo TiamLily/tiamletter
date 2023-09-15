@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+        #box {
+            font-family: 'Nanum Myeongjo', serif;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            height: 100%;
+            width: 1000px;
+            background-color: #fffcec;
+        }
+        .header {
+            background-color: #ffe86f;
+            border-bottom: 1px solid black;
+            margin-bottom: 50px;
+            margin: 0 auto;
+        }
+        .header-box {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+            width: auto;
+            align-items: center
+        }
+        .header-box {
+            margin: 0 50px;
+        }
+        .header-box img {
+            position: relative;
+            display: block;
+            width: 100px;
+            margin-left: 100px;
+        }
+        .header-box>div {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .youtube {
+            position: relative;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .mainVideo {
+            position: relative;
+            display: block;
+            width: 800px;
+            height: 500px;
+        }
+
+        .youtube iframe {
+            margin: 50px 0px;
+        }
+
+        .youtube {
+            margin-top: 50px;
+        }
+        .hotissue,
+        .whaton,
+        .monthly,
+        .vduck,
+        .footer {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+
+        .whaton div,
+        .vduck div {
+            text-align: center;
+        }
+
+        .whaton-box1 {
+            height: 190px;
+            overflow: hidden;
+        }
+
+        .whaton-box2 a {
+            margin: 0 20px;
+        }
+
+        .whaton-txt {
+            margin-top: 60px;
+            margin-bottom: 100px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .vduck {
+            padding-bottom: 220px;
+            text-align: center;
+        }
+
+        .vduck .vduck-box {
+            height: 597px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+
+        .vduck a {
+            position: relative;
+            display: block;
+            width: 300px;
+            padding: 10px 50px;
+            font-size: 22px;
+            font-weight: 800;
+            border-radius: 25px;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 auto;
+            margin-bottom: 30px; 
+        }
+
+        .vduck a:hover {
+            background-color: #feed59;
+            color: #333;
+            transition: 0.2s;
+        }
+
+        .vduck span {
+            font-size: 18px;
+            font-weight: 700;
+            padding-top: 30px;
+            line-height: 28px;
+        }
+
+        .ft-box1 {
+            height: 100px;
+            text-align: center;
+            background-color: #ffe86f;
+        }
+
+        .ft-box2 {
+            background-color: black;
+            padding:10px 10px 10px 10px;
+        }
